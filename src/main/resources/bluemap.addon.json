@@ -1,0 +1,5 @@
+{
+  "id": "BlueMapEveryCompatCompat",
+  "entrypoint": "net.doridian.bluemapeverycompatcompat.BlueMapEveryCompatCompat",
+  "version": "${version}"
+}
