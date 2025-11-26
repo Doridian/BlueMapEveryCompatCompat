@@ -24,16 +24,14 @@ public class EveryCompatResourcePack implements ResourcePackExtension {
     }
 
     @Override
-    public Key remapBlockState(Key src) {
+    public Key remapResource(Key src) {
         if (!src.getNamespace().equals("everycomp")) {
             return src;
         }
-        String[] segments = src.getValue().split("/");
+        String[] segments = src.getValue().split("/", 3);
         if (segments.length < 3) {
             return src;
         }
-        String assetModName = this.everyCompatShortModNames.get(segments[0]);
-        String assetName = segments[segments.length - 1];
-        return new Key(assetModName, assetName);
+        return new Key(segments[1], segments[2]);
     }
 }
