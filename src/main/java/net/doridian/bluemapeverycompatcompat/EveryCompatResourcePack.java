@@ -9,18 +9,9 @@ import java.util.Map;
 
 public class EveryCompatResourcePack implements ResourcePackExtension {
     private final ResourcePack pack;
-    private final Map<String, String> everyCompatShortModNames;
 
     public EveryCompatResourcePack(ResourcePack pack) {
         this.pack = pack;
-
-        this.everyCompatShortModNames = new HashMap<>();
-        this.everyCompatShortModNames.put("hc", "handcrafted");
-        this.everyCompatShortModNames.put("q", "quark");
-        this.everyCompatShortModNames.put("c", "create");
-        this.everyCompatShortModNames.put("sdl", "storagedelight");
-        this.everyCompatShortModNames.put("fd", "farmersdelight");
-        this.everyCompatShortModNames.put("abnbl", "boatload");
     }
 
     @Override
