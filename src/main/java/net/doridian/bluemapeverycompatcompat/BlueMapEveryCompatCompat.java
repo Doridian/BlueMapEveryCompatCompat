@@ -5,7 +5,7 @@ import de.bluecolored.bluemap.core.resources.pack.resourcepack.ResourcePack;
 public class BlueMapEveryCompatCompat implements Runnable {
     @Override
     public void run() {
-        System.out.println("Hello from BlueMapEveryCompatCompat!");
         ResourcePack.Extension.REGISTRY.register(EveryCompatExtension.INSTANCE);
+        System.out.println("BlueMapEveryCompatCompat loaded OK!");
     }
 }

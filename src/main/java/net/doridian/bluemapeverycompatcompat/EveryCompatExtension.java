@@ -8,7 +8,7 @@ public class EveryCompatExtension implements ResourcePack.Extension<EveryCompatR
 
     @Override
     public EveryCompatResourcePack create(ResourcePack pack) {
-        return new EveryCompatResourcePack(pack);
+        return new EveryCompatResourcePack();
     }
 
     @Override
