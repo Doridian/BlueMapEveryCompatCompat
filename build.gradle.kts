@@ -26,8 +26,8 @@ dependencies {
     compileOnly("de.bluecolored:bluemap-common:5.15")
     compileOnly("de.bluecolored:bluemap-api:2.7.7")
 
-    compileOnly("org.projectlombok:lombok:1.18.30")
-    annotationProcessor("org.projectlombok:lombok:1.18.30")
+    compileOnly("org.projectlombok:lombok:1.18.42")
+    annotationProcessor("org.projectlombok:lombok:1.18.42")
 }
 
 tasks.shadowJar {
