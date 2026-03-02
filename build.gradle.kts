@@ -22,7 +22,7 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 
-    compileOnly("de.bluecolored:bluemap-core:5.15")
+    compileOnly("de.bluecolored:bluemap-core:5.16")
     compileOnly("de.bluecolored:bluemap-common:5.15")
     compileOnly("de.bluecolored:bluemap-api:2.7.7")
 
