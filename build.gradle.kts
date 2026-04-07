@@ -24,7 +24,7 @@ dependencies {
 
     compileOnly("de.bluecolored:bluemap-core:5.16")
     compileOnly("de.bluecolored:bluemap-common:5.16")
-    compileOnly("de.bluecolored:bluemap-api:2.7.7")
+    compileOnly("de.bluecolored:bluemap-api:2.7.8")
 
     compileOnly("org.projectlombok:lombok:1.18.44")
     annotationProcessor("org.projectlombok:lombok:1.18.44")
